@@ -1,10 +1,4 @@
-#include <stdint.h>
-#include <stddef.h>
-#include <stdbool.h>
-#include "peripheral/i2c/master/plib_i2c1_master.h"
-#include "peripheral/clk/plib_clk.h"
-#include "peripheral/gpio/plib_gpio.h"
-#include "peripheral/evic/plib_evic.h"
+#include "tempsupport.h"
 uint8_t myTxData [1] = {0};
 uint8_t myRxData [1] = {0};
 uint8_t NValidData[1]={257};
